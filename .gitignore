@@ -1,0 +1,48 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Vite build outputs
+/dist/
+.vite/
+
+# React build outputs
+/build/
+
+# .env files (for sensitive data, like API keys)
+.env
+.env.local
+.env.*.local
+
+# log files
+*.log
+
+# OS-specific files
+.DS_Store           # macOS Finder settings
+Thumbs.db           # Windows Thumbnails
+
+# IDE / editor files
+.vscode/             # VS Code settings
+.idea/               # JetBrains IDEs settings
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.bak                # Backup files
+*.swp                # Swap files (e.g., Vim)
+
+# TypeScript (if used)
+*.tsbuildinfo        # TypeScript build cache
+
+# Vercel / Netlify / Deployments (for deployment services)
+.vercel/
+.netlify/
+
+# NPM global package cache (if any)
+.npm/
+
+# Jest cache (if using Jest for testing)
+jest/
